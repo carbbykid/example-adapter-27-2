@@ -28,7 +28,6 @@ const ContentSolana = () => {
   // Hook
   const { signMessage, sendTransaction, signTransaction, publicKey, address } =
     useWallet();
-  console.log('🚀 ~ ContentSolana ~ address:', address);
   const [resultMessage, setResultMessage] = useState('');
   const [resultSend, setResultSend] = useState('');
   const [resultSendTrans, setResultSendTrans] = useState('');
@@ -90,9 +89,7 @@ const ContentSolana = () => {
       const resSig: any = await signTransaction?.(transactionV0);
       console.log('🚀 ~ handleSignTransaction ~ resSig:', resSig);
 
-      setResultSignTrans(
-        encode(resSig.signatures as any) || (resSig.error as string)
-      );
+      setResultSignTrans(!!resSig ? 'Done' : 'Error');
     } catch (error) {
       console.log('error sigTransaction', error);
     }
