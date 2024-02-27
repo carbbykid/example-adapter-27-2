@@ -89,10 +89,10 @@
   dependencies:
     "@babel/runtime" "^7.21.0"
 
-"@coin98t/wallet-adapter-base@^0.0.58", "@coin98t/wallet-adapter-base@0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-base/-/wallet-adapter-base-0.0.58.tgz"
-  integrity sha512-UMitdPY0u6eA+CfHls+nlxBlHhhGIK37j/GwvaA89GyG8Dh0bn03n63qVIFj7QOG3pTI5ECcUJHOG9BHNi4K0w==
+"@coin98t/wallet-adapter-base@^0.0.59", "@coin98t/wallet-adapter-base@0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-base/-/wallet-adapter-base-0.0.59.tgz"
+  integrity sha512-Z+Zap9cgdA9ipSme/GvHWXom8Pc9vY6Fx9kfKq2EcWEP6MMcw+bJLfOXPD9hdGRZDBof/vJpdqVzPTj6GUuvPg==
   dependencies:
     "@near-js/crypto" "^0.0.5"
     "@polkadot/types" "^10.11.1"
@@ -106,28 +106,28 @@
     near-api-js "^2.1.4"
     web3-types "^1.2.0"
 
-"@coin98t/wallet-adapter-bybit-solana@0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-bybit-solana/-/wallet-adapter-bybit-solana-0.0.58.tgz"
-  integrity sha512-dmwvyKYyJyklX24c8iowXAris0EfehAxWjqTrIPPuaVu4M+GNYEvpuy9qzKTH9P0M0vqi33ta6FDsQeQDkjDsA==
+"@coin98t/wallet-adapter-bybit-solana@0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-bybit-solana/-/wallet-adapter-bybit-solana-0.0.59.tgz"
+  integrity sha512-UhA7q4ykG8Q2dKwLlcZ6Q4c3J22kPWTsub3FpUqw4f0ohtzGnizURp9p72fpDKW8NDOH4xi8Gc56oyL0wiRj/w==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
 
-"@coin98t/wallet-adapter-bybit@^0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-bybit/-/wallet-adapter-bybit-0.0.58.tgz"
-  integrity sha512-yTL92LHF+pyeF27MF01/7QICo4f+Z/bK/cH30oul/Pv4tG0U743kmUYu3ZsK+Vxy+HHyAHY+Wz8kdQQ3Y51W+Q==
+"@coin98t/wallet-adapter-bybit@^0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-bybit/-/wallet-adapter-bybit-0.0.59.tgz"
+  integrity sha512-nBVluIul6q6qtl11ofuDQy/PEXNnosG5IOW4058pXFlcCS55dWG+R86NwozbEija/cVmF9C4rRtN+Bdt4uy2NA==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
-    "@coin98t/wallet-adapter-bybit-solana" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
+    "@coin98t/wallet-adapter-bybit-solana" "0.0.59"
     "@solana/web3.js" "^1.58.0"
 
-"@coin98t/wallet-adapter-coin98-cosmos@0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-coin98-cosmos/-/wallet-adapter-coin98-cosmos-0.0.58.tgz"
-  integrity sha512-ONjgz7aAKItNUXlIk/Ph98CZwhT8PBq9rBrpXmEd/iEwDg/GN3LlP3CgguyAiY8JWLuZVBxqoRht8ZB+FvF6Yg==
+"@coin98t/wallet-adapter-coin98-cosmos@0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-coin98-cosmos/-/wallet-adapter-coin98-cosmos-0.0.59.tgz"
+  integrity sha512-9vRbpECue7+ClWWfoSBDAiIU2xLz+9MFuu/qyL7pcR1AY610GKlZyf1e+qK1i8DOtWKnU2xH09wU+Fjzi++Otw==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
     "@cosmjs/cosmwasm-stargate" "^0.30.1"
     "@cosmjs/encoding" "^0.30.1"
     "@cosmjs/stargate" "^0.30.1"
@@ -135,20 +135,20 @@
     crypto "npm:crypto-browserify"
     stream "npm:stream-browserify"
 
-"@coin98t/wallet-adapter-coin98-ethereum@0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-coin98-ethereum/-/wallet-adapter-coin98-ethereum-0.0.58.tgz"
-  integrity sha512-qEd74nXC5NYMm7r7xoa7aMbpDfvbtlzL3S6AGaoL3jIvNB8XFaeZJ8hFaDSuW7Eoj3hB+TgNavrf2JWfvU9EhQ==
+"@coin98t/wallet-adapter-coin98-ethereum@0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-coin98-ethereum/-/wallet-adapter-coin98-ethereum-0.0.59.tgz"
+  integrity sha512-KqPtcMxG7uGShaLgkpKPyWM/cN4Fjyu/T324NEVvh+VWPd67xtocit5DRv2dMtz6LxDsJla61Al6/QmIMXmhjw==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
     web3-types "^1.2.0"
 
-"@coin98t/wallet-adapter-coin98-near@0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-coin98-near/-/wallet-adapter-coin98-near-0.0.58.tgz"
-  integrity sha512-+9jU9CdaMHLTzuWFHzA4uesqifKBKhXjUc0pF1Rm/woGXbPE+5Za0/zpJzb5tQZ82+iMHsJAbCIwlBSmJJk8Fg==
+"@coin98t/wallet-adapter-coin98-near@0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-coin98-near/-/wallet-adapter-coin98-near-0.0.59.tgz"
+  integrity sha512-z6UrAd9O+yvWtTLzDhIdUJL0u1QOEuJCyvjfAr48phLn4czxjSk0TVG3HYfDJsWX7dfOnqcAqLfw45Jw/8XeYQ==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
     "@near-js/crypto" "^0.0.5"
     "@types/bn.js" "^5.1.2"
     bn.js "^5.2.1"
@@ -157,51 +157,51 @@
     near-api-js "^2.1.3"
     url "npm:url"
 
-"@coin98t/wallet-adapter-coin98-solana@0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-coin98-solana/-/wallet-adapter-coin98-solana-0.0.58.tgz"
-  integrity sha512-kKakSz2iEcmK8akw6mydw4PHUcZ8fE1c2+qvRoTVha0/ei5C5a12AmuUPLgyocpay1IM/GgsCtI7C8Sw0pnReQ==
+"@coin98t/wallet-adapter-coin98-solana@0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-coin98-solana/-/wallet-adapter-coin98-solana-0.0.59.tgz"
+  integrity sha512-l/qn+V8Lrzh62V/fkK63E2OD3NxiFM/1eKVaYir/fVI6aHw8oApDbXEYnGUHuRUKY/MvSj/1AIPb/+mtFL9+4A==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
     bs58 "^4.0.1"
 
-"@coin98t/wallet-adapter-coin98@^0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-coin98/-/wallet-adapter-coin98-0.0.58.tgz"
-  integrity sha512-ShEp7XPGG/yK0ugMT8IXCcjPeOwqPBtP3lJg+D/A/EZQ7ahZGfGV+cnzDRapR/cqyXilYyD838HM38JiTCPCLA==
+"@coin98t/wallet-adapter-coin98@^0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-coin98/-/wallet-adapter-coin98-0.0.59.tgz"
+  integrity sha512-WZmr6nkt+274L2prQD/clZo7hEJ4B0/eCzvQtQc46iUaEO2qHMmZYphbQ0c0GuGglKnhocQkeM8UfrQ37wdZuw==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
-    "@coin98t/wallet-adapter-coin98-cosmos" "0.0.58"
-    "@coin98t/wallet-adapter-coin98-ethereum" "0.0.58"
-    "@coin98t/wallet-adapter-coin98-near" "0.0.58"
-    "@coin98t/wallet-adapter-coin98-solana" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
+    "@coin98t/wallet-adapter-coin98-cosmos" "0.0.59"
+    "@coin98t/wallet-adapter-coin98-ethereum" "0.0.59"
+    "@coin98t/wallet-adapter-coin98-near" "0.0.59"
+    "@coin98t/wallet-adapter-coin98-solana" "0.0.59"
     "@solana/web3.js" "^1.58.0"
 
-"@coin98t/wallet-adapter-compass-cosmos@0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-compass-cosmos/-/wallet-adapter-compass-cosmos-0.0.58.tgz"
-  integrity sha512-jlcjtuvEJlGRrV+ZjbXEL5P+P3SVa3+7IMzEl6wU7+555Lipk9nz68hr6EFK5Sxq7bLSIQ2CGG1wmQpD1Qy3yA==
+"@coin98t/wallet-adapter-compass-cosmos@0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-compass-cosmos/-/wallet-adapter-compass-cosmos-0.0.59.tgz"
+  integrity sha512-IS6pwufGs7aNEcorNGk43FEFF/tiqjwIs+2dPLpmBrAhoQoSaaXq6KL2P3M1QtbwA+wG6Ve/b/UHLe3CXaKiyg==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
     "@cosmjs/cosmwasm-stargate" "^0.30.1"
     "@cosmjs/encoding" "^0.30.1"
     "@cosmjs/stargate" "^0.30.1"
     cosmjs-types "^0.9.0"
 
-"@coin98t/wallet-adapter-compass@^0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-compass/-/wallet-adapter-compass-0.0.58.tgz"
-  integrity sha512-uBT3owrUoEq+xBfWyu9XtjQqNP8OGlNq4EIN7mZrgn/YOxDFFjphyiWppXKoGMRA2R4/rFekHCCmQoiMCC04sw==
+"@coin98t/wallet-adapter-compass@^0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-compass/-/wallet-adapter-compass-0.0.59.tgz"
+  integrity sha512-dayWp6D2dxuTzQErm+EdKdw2H0AFwpSA0zadJFkYh02rd/kJuFTx7CskBabX9Sf+CArn47flw9iFkNiyeWKvkA==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
-    "@coin98t/wallet-adapter-compass-cosmos" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
+    "@coin98t/wallet-adapter-compass-cosmos" "0.0.59"
 
-"@coin98t/wallet-adapter-fin-cosmos@0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-fin-cosmos/-/wallet-adapter-fin-cosmos-0.0.58.tgz"
-  integrity sha512-6zRBKBt1yPrv8q5IpHTC6HJz4b4gqlOlZl6sZlzo2ntAN72GUsVk5kwglStr8dvMBhe61ELmjs80paaV0KlUuQ==
+"@coin98t/wallet-adapter-fin-cosmos@0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-fin-cosmos/-/wallet-adapter-fin-cosmos-0.0.59.tgz"
+  integrity sha512-3WV65j4LZL2bUcSE9PYLXeKbuKkVkDq0XPbKIG/dejG+lCIpAFvQdQIWR+iIuPGIdaCH2MS934NulPDwDrQPEQ==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
     "@cosmjs/cosmwasm-stargate" "^0.30.1"
     "@cosmjs/encoding" "^0.30.1"
     "@cosmjs/stargate" "^0.30.1"
@@ -209,37 +209,37 @@
     crypto "npm:crypto-browserify"
     stream "npm:stream-browserify"
 
-"@coin98t/wallet-adapter-fin@^0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-fin/-/wallet-adapter-fin-0.0.58.tgz"
-  integrity sha512-0DjZO1M9JSgLifQriPu9mCxFfRHW6oXKy+BghxTU4MYxdtlUS4A3ueIwmnt0unh4JqfoG7ebPGOirjAMH6oZ4A==
+"@coin98t/wallet-adapter-fin@^0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-fin/-/wallet-adapter-fin-0.0.59.tgz"
+  integrity sha512-s0zbMh+YsR5+vlPZlDtd7lWGGf/r9wLyGEhPh+QHeSqufTS3P5+Ok8MybWsUQYxN2gHY+eMQSjrsuxBHhRNmeQ==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
-    "@coin98t/wallet-adapter-fin-cosmos" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
+    "@coin98t/wallet-adapter-fin-cosmos" "0.0.59"
 
-"@coin98t/wallet-adapter-fox-ethereum@0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-fox-ethereum/-/wallet-adapter-fox-ethereum-0.0.58.tgz"
-  integrity sha512-3HT50ujrdKFRSZP/tlR0Aw34CPxbmFU/ON2qlLPVJRBrjo+CvVNPEYJeFEyJv6OzMTVTkawcZ+0C6MDy3gR8HQ==
+"@coin98t/wallet-adapter-fox-ethereum@0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-fox-ethereum/-/wallet-adapter-fox-ethereum-0.0.59.tgz"
+  integrity sha512-7m01vT69zMJ/OeYZVaEmIQx+GJ7V5kb1Uw2/EuGy4Em5X5KiMoGEhBKkH7ui6R7Lue6VObM2u9F/JFO7FH7KAw==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
     react-device-detect "^2.2.3"
     web3-types "^1.2.0"
 
-"@coin98t/wallet-adapter-fox@^0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-fox/-/wallet-adapter-fox-0.0.58.tgz"
-  integrity sha512-/L0idexjOj5sZFJi9U8Ym7/BtAtuSw/YfLmBkwaesk9TrksMu8gaOVudJQ+If+T6t1ymI+01e2fUMAHxHfuP3g==
+"@coin98t/wallet-adapter-fox@^0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-fox/-/wallet-adapter-fox-0.0.59.tgz"
+  integrity sha512-AjlMmyQXtXJQJYAK/ZSlVLKLIUIcNQwlrJ32+Jj17+9FnmdpFJAe5a/QAKvUxaIXOqBi8j0C+kWuh2ws+47/jQ==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
-    "@coin98t/wallet-adapter-fox-ethereum" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
+    "@coin98t/wallet-adapter-fox-ethereum" "0.0.59"
 
-"@coin98t/wallet-adapter-keplr-cosmos@0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-keplr-cosmos/-/wallet-adapter-keplr-cosmos-0.0.58.tgz"
-  integrity sha512-Mf2Nv0+Hzihr5skqRfcApL/eEnDdcb5XAk8CxEvn4lEiHnbOXe1fN0tzL3C0hUba9ZnIHVH/E8HJgDDTAyUY6A==
+"@coin98t/wallet-adapter-keplr-cosmos@0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-keplr-cosmos/-/wallet-adapter-keplr-cosmos-0.0.59.tgz"
+  integrity sha512-WZEA8ZaJJRW+Bp7rkwTJCR5cix2HvSBDcptF9GbDXvLp+qqdIHcL6SqDbBjxLN5MbrAgzx24qq53TYcu7pYWcg==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
     "@cosmjs/cosmwasm-stargate" "^0.32.2"
     "@cosmjs/encoding" "^0.32.2"
     "@cosmjs/stargate" "^0.32.2"
@@ -252,20 +252,20 @@
     long "^5.2.3"
     stream "npm:stream-browserify"
 
-"@coin98t/wallet-adapter-keplr@^0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-keplr/-/wallet-adapter-keplr-0.0.58.tgz"
-  integrity sha512-pCx36wZ0C4+OHonbZWNwpJ4vIP+BOlrEOAzQuYerNjVNE/8Q86TP9boxt/3c6b1pcWtc72gSEoKEyp4Z/yO3gQ==
+"@coin98t/wallet-adapter-keplr@^0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-keplr/-/wallet-adapter-keplr-0.0.59.tgz"
+  integrity sha512-zzkSTdbFQYoq42ncJtcQQlxsvGNhWVgB0tpVvM66JlI1xHafJZMXexD/DSBGx9xungv/35r09CuSRVDM4bxuRA==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
-    "@coin98t/wallet-adapter-keplr-cosmos" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
+    "@coin98t/wallet-adapter-keplr-cosmos" "0.0.59"
 
-"@coin98t/wallet-adapter-leap-cosmos@0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-leap-cosmos/-/wallet-adapter-leap-cosmos-0.0.58.tgz"
-  integrity sha512-LVYjka9cSi+lVGAN47uX+f1S+jmC3soof0WiHGzEaPDbdFwalw/MZYWAUsseHEfkVJ2svfGTEROjpAw34JP27Q==
+"@coin98t/wallet-adapter-leap-cosmos@0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-leap-cosmos/-/wallet-adapter-leap-cosmos-0.0.59.tgz"
+  integrity sha512-R4lvbYWjjHlmmLisWBXpRD4VJOrIG4IS8poS/0CVLcFE32HEaWUTGayo98UfvLZsfXw3Csr062YYpHILe4D3gw==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
     "@cosmjs/cosmwasm-stargate" "^0.30.1"
     "@cosmjs/encoding" "^0.30.1"
     "@cosmjs/stargate" "^0.30.1"
@@ -273,123 +273,123 @@
     crypto "npm:crypto-browserify"
     stream "npm:stream-browserify"
 
-"@coin98t/wallet-adapter-leap@^0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-leap/-/wallet-adapter-leap-0.0.58.tgz"
-  integrity sha512-iX78qvHsPLgDkbkSN2Jfr56dYqOes/hKh1W3PaCMVtqRSIoFJKCDAC705vT9dX67JdweqKKGs2Uf9ghY7IxblA==
+"@coin98t/wallet-adapter-leap@^0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-leap/-/wallet-adapter-leap-0.0.59.tgz"
+  integrity sha512-q9eDiJ892CIeY06XCqzkUMKybv0Aidef68zhCs3D2Mg0Q2VjtzoWFWX++5Fpj0KUnm6sdFlmDvLwEGpAJ4BjtA==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
-    "@coin98t/wallet-adapter-leap-cosmos" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
+    "@coin98t/wallet-adapter-leap-cosmos" "0.0.59"
 
-"@coin98t/wallet-adapter-metamask-ethereum@0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-metamask-ethereum/-/wallet-adapter-metamask-ethereum-0.0.58.tgz"
-  integrity sha512-DHytTkFlIzsib8RJlfIX8uZc/YGdXKl+9PEQ5ZDqVu+tgAVDz7Iq8Q6FURb8uHobft1D6TmNocilT4KZvu/sjg==
+"@coin98t/wallet-adapter-metamask-ethereum@0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-metamask-ethereum/-/wallet-adapter-metamask-ethereum-0.0.59.tgz"
+  integrity sha512-IfD1Cp6O9cnikoehvAgU0KoyWQzMntkxFeHwbIWoKAk89mJm1I90+E55yp5YMaG8W+/5Pqrzk1Rw4mLp+fmM3Q==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
     web3-types "^1.2.0"
 
-"@coin98t/wallet-adapter-metamask@^0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-metamask/-/wallet-adapter-metamask-0.0.58.tgz"
-  integrity sha512-iW/j3jGVYqSIujhGjriF+cEQvNmiM292MHPQRW1rdLVmC64liX9iHftEmOhyyjQRP5qn3Q9DMZGu39y1qCbA/g==
+"@coin98t/wallet-adapter-metamask@^0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-metamask/-/wallet-adapter-metamask-0.0.59.tgz"
+  integrity sha512-gdwNZVRc/5sDa0kWZ3FtdxZTp+EaefuuWx/xsvCRH1/5Smqh3BnRmV1On/ou+597OZVaYtFNFe25/AyObeq/uA==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
-    "@coin98t/wallet-adapter-metamask-ethereum" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
+    "@coin98t/wallet-adapter-metamask-ethereum" "0.0.59"
 
-"@coin98t/wallet-adapter-particle-ethereum@0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-particle-ethereum/-/wallet-adapter-particle-ethereum-0.0.58.tgz"
-  integrity sha512-5stfSda5HyYq2C0YhJjyaAvbrObGwMEks+hlTIopJjJFFQ+u5Re4M6bphAgi5Ft7yciLXn/a+B5Fkys+MLgb+A==
+"@coin98t/wallet-adapter-particle-ethereum@0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-particle-ethereum/-/wallet-adapter-particle-ethereum-0.0.59.tgz"
+  integrity sha512-eDySrm8z+2rG6REvjKAXSm8oR9sILiMXqFRIGma8COdScaYwxy2tuW8AywMLGqx8n/11GMQPRx2ZCug3KFdjwg==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
     "@particle-network/auth" "^1.2.2"
     "@particle-network/chains" "^1.3.3"
     npm "^10.2.5"
     web3-types "^1.2.0"
 
-"@coin98t/wallet-adapter-particle@^0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-particle/-/wallet-adapter-particle-0.0.58.tgz"
-  integrity sha512-SXelESTryQHlY7jRCKjIGEB7Gz6MujMnRPFkpxR3bEH3Ku6EkqKYX3tQBrkzDscOw/S3RlyJyN1R1U9s7ig2BA==
+"@coin98t/wallet-adapter-particle@^0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-particle/-/wallet-adapter-particle-0.0.59.tgz"
+  integrity sha512-L+H81ZBaEfU0gu8vIxDKOjHYuqNVUpW0GoF9Hppo9+ulf8CiA3YmTxN7kciiV/k88dxfPc8qhfpPMtbutIUZjA==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
-    "@coin98t/wallet-adapter-particle-ethereum" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
+    "@coin98t/wallet-adapter-particle-ethereum" "0.0.59"
 
-"@coin98t/wallet-adapter-phantom-solana@0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-phantom-solana/-/wallet-adapter-phantom-solana-0.0.58.tgz"
-  integrity sha512-CjL9rBhci2zeNszbHzT0LRpOVO4DCuYchVoG8qy5roMaeS6MFNKM+bhH9PCND6K7k1oPnvvpG4hbXAHDQ2tpyA==
+"@coin98t/wallet-adapter-phantom-solana@0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-phantom-solana/-/wallet-adapter-phantom-solana-0.0.59.tgz"
+  integrity sha512-gfP/GwMLmrpGJEOpqL6GEF5wMXqWQnbnZ8TyRkI/INeEzTuOeXcY8Jzg+vKdM7titq1fIWu2r2es5wic4Skl5Q==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
 
-"@coin98t/wallet-adapter-phantom@^0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-phantom/-/wallet-adapter-phantom-0.0.58.tgz"
-  integrity sha512-39HQca24w4IhOOWMpX3Xn8Vt0ymKtNfGj419qWMY75BhPGjLVil+K809zEogUJkDdL0T6lwWBkHm2A1zaXKnVw==
+"@coin98t/wallet-adapter-phantom@^0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-phantom/-/wallet-adapter-phantom-0.0.59.tgz"
+  integrity sha512-mklBhW0zeTEEVPHjjyOG6iS/+iD7n6CPUPSlIxnDUGCl/4P/QO777NG6iH6EnQBrLEz0WKGh0BQA36XhiJrkFA==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
-    "@coin98t/wallet-adapter-phantom-solana" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
+    "@coin98t/wallet-adapter-phantom-solana" "0.0.59"
     "@solana/web3.js" "^1.58.0"
 
-"@coin98t/wallet-adapter-ramper-ethereum@0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-ramper-ethereum/-/wallet-adapter-ramper-ethereum-0.0.58.tgz"
-  integrity sha512-ox3mJgLhOYdtFKKvwfSK2wP86lHU2BHR4f7/03T+CEmJ+6hAPwXrc4uFmYwsiQCVEoTRf3FlnZAqAG5cki7OLg==
+"@coin98t/wallet-adapter-ramper-ethereum@0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-ramper-ethereum/-/wallet-adapter-ramper-ethereum-0.0.59.tgz"
+  integrity sha512-/RegrGVI6cDkw8IEXPthC6NQn354Y5Di/tH0J5Q46hdDU32ExpDtbQwP1ojmibAjZTZQ37n0xmI0JcIG1dcH9A==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
     web3-types "^1.2.0"
 
-"@coin98t/wallet-adapter-ramper@^0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-ramper/-/wallet-adapter-ramper-0.0.58.tgz"
-  integrity sha512-n/giNI+18jW4OtpkNdZhVtLo68hACuzP6yo4jv95Si5QEgtNYHqH+Y4qIS0GnZPRB+BSiOhjTT8P9NNe3ztpew==
+"@coin98t/wallet-adapter-ramper@^0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-ramper/-/wallet-adapter-ramper-0.0.59.tgz"
+  integrity sha512-22zW59nv6jUOBAvoGdLt7OOn4/v/WIa/PDhXcaXEvWLNpQSKI2noZstmvZLiwZ76aHK7iJwplbKEXM5uc4Kspw==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
-    "@coin98t/wallet-adapter-ramper-ethereum" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
+    "@coin98t/wallet-adapter-ramper-ethereum" "0.0.59"
 
-"@coin98t/wallet-adapter-react-ui@^0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-react-ui/-/wallet-adapter-react-ui-0.0.58.tgz"
-  integrity sha512-ZHRl385+ZX0JGXLjLsH68fjMlCmI8jN8liP6tvJdzvBto8s0PaoW7/ixMiHDZH7s97eLlhur4qoUao/PsssOBA==
+"@coin98t/wallet-adapter-react-ui@^0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-react-ui/-/wallet-adapter-react-ui-0.0.59.tgz"
+  integrity sha512-12t8L4/F8UiwB5gdEvTP77WhzOFKZVLjRMhtbPWbWx18FnsanPmG/lWOFShoPn7CJj8oD/l5X9Ued4zKqo+fKQ==
   dependencies:
     tailwind-merge "^1.14.0"
 
-"@coin98t/wallet-adapter-react@^0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-react/-/wallet-adapter-react-0.0.58.tgz"
-  integrity sha512-wHt5FdOqKltRXAHetpiwMIf7/7qQ9YGno96+90JUshmTFr+lVEUwFHIJmexCbBuhZtoMpC7CtoeOwffxXqjavg==
+"@coin98t/wallet-adapter-react@^0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-react/-/wallet-adapter-react-0.0.59.tgz"
+  integrity sha512-KcwVfBCNMXGxWmxx0vw07IlMp/s29HJX2A/SuENwX2sGZa7yCHQNWac+bPie4bLsVvkFCyJXA74MlVAnxGJ9NA==
   dependencies:
     "@solana/wallet-standard-wallet-adapter-react" "^1.0.1"
     bs58 "^4.0.1"
     web3-types "^1.2.0"
 
-"@coin98t/wallet-adapter-subwallet-ethereum@0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-subwallet-ethereum/-/wallet-adapter-subwallet-ethereum-0.0.58.tgz"
-  integrity sha512-T0peU+OtMGVLIY5dJm6q77rz/+tbU3VeNFFlVNL9O2kvpzMAyGEYvwt4wR4rKbyjd5H45wZvOk4uJt1mOvtuDg==
+"@coin98t/wallet-adapter-subwallet-ethereum@0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-subwallet-ethereum/-/wallet-adapter-subwallet-ethereum-0.0.59.tgz"
+  integrity sha512-3BbGdBo+cshbvfE9AgOxi9B3rzWqiXSgDzni/cMjnAaaKeRcwbCwPqjtBvrX7bR3sBQHbqPXhdjV7/KvanTRcg==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
     web3-types "^1.2.0"
 
-"@coin98t/wallet-adapter-subwallet-polkadot@0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-subwallet-polkadot/-/wallet-adapter-subwallet-polkadot-0.0.58.tgz"
-  integrity sha512-u4Sv1cpOe24M5yqjZ37gLverAcGuGtidGVkANSNxm/nBqoPVyk6Y98tsJ7nRRuipqkFHgayztK31KMvx+XMTMg==
+"@coin98t/wallet-adapter-subwallet-polkadot@0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-subwallet-polkadot/-/wallet-adapter-subwallet-polkadot-0.0.59.tgz"
+  integrity sha512-NpNYtnbCNkXa0KiKECnQX/dioas0jzhOPNaChrtAUmC5D+Fk1VKBVoOvtPGgYtWFnw7FB6KCIetxUJSJunrT/g==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
     "@polkadot/types" "^10.11.1"
     "@subwallet/extension-inject" "^1.1.1"
     web3-types "^1.2.0"
 
-"@coin98t/wallet-adapter-subwallet@^0.0.58":
-  version "0.0.58"
-  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-subwallet/-/wallet-adapter-subwallet-0.0.58.tgz"
-  integrity sha512-lArPJ5c/huHq+aNlVYd8TKyymEnK77M1giRlcZxt+aBqoi3bSeN06uopck6WJISiy5EpyeiCNxIEq6TQ1e9uvQ==
+"@coin98t/wallet-adapter-subwallet@^0.0.59":
+  version "0.0.59"
+  resolved "https://registry.npmjs.org/@coin98t/wallet-adapter-subwallet/-/wallet-adapter-subwallet-0.0.59.tgz"
+  integrity sha512-/93UPz37DxuecED29bW6VSxUOtEEHlOP01mLtpttUf/wzQcBAz/jfjcFeiv3npa1LzYbwTQZhOU3tb+veRX3PQ==
   dependencies:
-    "@coin98t/wallet-adapter-base" "0.0.58"
-    "@coin98t/wallet-adapter-subwallet-ethereum" "0.0.58"
-    "@coin98t/wallet-adapter-subwallet-polkadot" "0.0.58"
+    "@coin98t/wallet-adapter-base" "0.0.59"
+    "@coin98t/wallet-adapter-subwallet-ethereum" "0.0.59"
+    "@coin98t/wallet-adapter-subwallet-polkadot" "0.0.59"
 
 "@colors/colors@1.5.0":
   version "1.5.0"
