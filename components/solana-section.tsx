@@ -285,7 +285,7 @@ const ContentSolana = () => {
         {resultSend && <ResultTxt txt={resultSend} />}
       </CardMethod>
 
-      <CardMethod title="Send Token (Versioned Transaction)">
+      <CardMethod title="Send Token (Versioned)">
         <CustomButton
           onClick={() => handleSendTokenVersionTransaction()}
           title="Send"
