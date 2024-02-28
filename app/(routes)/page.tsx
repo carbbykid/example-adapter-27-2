@@ -89,6 +89,7 @@ const HomePage = () => {
   }, []);
 
   useEffect(() => {
+    console.log('adsfad');
     (async () => {
       const eruda = await import('eruda');
       eruda.default.init();
