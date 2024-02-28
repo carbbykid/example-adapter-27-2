@@ -88,12 +88,13 @@ const HomePage = () => {
     setIsLightMode(getIsLightMode);
   }, []);
 
-  // useEffect(() => {
-  //   (async () => {
-  //     const eruda = await import('eruda');
-  //     eruda.default.init();
-  //   })();
-  // }, []);
+  useEffect(() => {
+    console.log('adsfad');
+    (async () => {
+      const eruda = await import('eruda');
+      eruda.default.init();
+    })();
+  }, []);
   return (
     <div className="relative layout min-h-screen bg-[#0f0f0f] text-textPrimary">
       <img
