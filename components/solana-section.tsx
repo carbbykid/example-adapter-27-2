@@ -123,7 +123,7 @@ const ContentSolana = () => {
       const resSend = await sendTransaction(transaction, connection, {
         preflightCommitment: 'finalized',
         skipPreflight: false,
-        // signers: [{ publicKey: kp.publicKey, secretKey: kp.secretKey }],
+        signers: [{ publicKey: kp.publicKey, secretKey: kp.secretKey }],
       });
 
       setResultSend((resSend.data as string) || (resSend.error as string));
@@ -207,7 +207,7 @@ const ContentSolana = () => {
     }
   };
 
-  const handleSendTransactionSol = async () => {
+  const handleSendTransactionSolCustom = async () => {
     let lamportsI = LAMPORTS_PER_SOL * lamports;
 
     let hash = await connection.getRecentBlockhash();
@@ -294,14 +294,14 @@ const ContentSolana = () => {
         {resultSendVerTrans && <ResultTxt txt={resultSendVerTrans} />}
       </CardMethod>
 
-      {/* <CardMethod title="Send Transaction">
+      <CardMethod title="Send Transaction">
         <CustomButton
           onClick={() => handleSendTransaction()}
           title="Send"
           className="mt-6"
         />
         {resultSendTrans && <ResultTxt txt={resultSendTrans} />}
-      </CardMethod> */}
+      </CardMethod>
 
       <CardMethod title="Sign Transaction">
         <CustomButton
