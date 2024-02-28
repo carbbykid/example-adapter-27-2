@@ -265,6 +265,18 @@ const ContentSolana = () => {
     //   });
   };
 
+  useEffect(() => {
+    const wallet = window.phantom.solana!;
+    if (wallet) {
+      wallet.on('disconnect', () => {
+        console.log('disconnected event');
+      });
+      wallet.on('accountChanged', (publicKey: any) => {
+        console.log('disconnected accountChanged', publicKey);
+      });
+    }
+  }, []);
+
   return (
     <div className="grid grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-3">
       <CardMethod title="Sign Message">
